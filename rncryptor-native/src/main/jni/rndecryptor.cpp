@@ -18,7 +18,7 @@ string RNDecryptor::decrypt(string encryptedBase64, string password)
 	RNCryptorPayloadComponents components = this->unpackEncryptedBase64Data(encryptedBase64);
 
 	if (!this->hmacIsValid(components, password)) {
-		return "";
+		return "error decrypting";
 	}
 
 	SecByteBlock key = this->generateKey(components.salt, password);
