@@ -1,12 +1,12 @@
 apply plugin: 'com.android.model.library'
 
-def version = 9;
+def version = 10;
 
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'rncryptor-native'
 
-    publishedGroupId = 'com.github.tgio'
+    publishedGroupId = 'com.github.fig7'
     libraryName = 'RNCryptorNative'
     artifact = 'rncryptor-native'
 
@@ -17,9 +17,9 @@ ext {
 
     libraryVersion = "0.0.".concat(version.toString())
 
-    developerId = 'tgio'
-    developerName = 'Giorgi Tabatadze'
-    developerEmail = 'gio.caporegime@gmail.com'
+    developerId = 'fig7'
+    developerName = 'Stuart Fisher'
+    developerEmail = 'stuart.fisher@fig7.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
