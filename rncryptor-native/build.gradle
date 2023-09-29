@@ -12,8 +12,8 @@ ext {
 
     libraryDescription = 'Android JNI model library with prebuilt RNCryptor++'
 
-    siteUrl = 'https://github.com/TGIO/RNCryptorNative'
-    gitUrl = 'https://github.com/TGIO/RNCryptorNative.git'
+    siteUrl = 'https://github.com/fig7/RNCryptorNative'
+    gitUrl = 'https://github.com/fig7/RNCryptorNative.git'
 
     libraryVersion = "0.0.".concat(version.toString())
 
